@@ -18,7 +18,8 @@ F: / Coursera / Getting Data Cleaning / HAR UCI Dataset
       In S bind [train / subject_train.txt, test / subject_test.txt] 
       Y bind [train / y_train.txt, test / y_test.txt] 
 
-  3.2 Extracts only the measurements on the mean and standard deviation for each measurement. 
+  3.2 Extracts only the measurements on the mean and standard deviation for each measurement.
+  
       The average and standard deviation variables along with others are in features.txt.
       In index_features are extracted only the mean and standard deviation variables. 
       In X are selected only variables related to the mean and standard deviation are assigned labels to each variable. 
