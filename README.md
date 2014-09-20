@@ -26,12 +26,15 @@ F: / Coursera / Getting Data Cleaning / HAR UCI Dataset
       to each variable. 
 
   3.3 Uses descriptive activity names to name the activities in the data set 
-  Assign Y for each observation activity 
+  
+      Assign Y for each observation activity 
 
   3.4 Appropriately labels the data set with descriptive names 
-  In "join" are assigned to the corresponding labels: Subject, activities, and the different variables mean and std.
   
-  Exported in the working directory in the text file: merged_data2.txt. 
+     In "join" are assigned to the corresponding labels: Subject, activities, and the different variables mean and std.
+  
+     Exported in the working directory in the text file: merged_data2.txt. 
 
-3.5 From the data set in step 3.4 creates a second, independent data set with the average of each variable for each activity and each subject.
+  3.5 From the data set in step 3.4 creates a second, independent data set with the average of each variable for each activity       and each subject.
  
+     Exported in the working directory in the text file: data_averages2.txt
