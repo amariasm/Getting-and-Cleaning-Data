@@ -37,4 +37,5 @@ Project processes
 
   3.5 From the data set in step 3.4 creates a second, independent data set with the average of each variable for each activity       and each subject.
  
+     By a loop with three indices "r-row"," a-activity" and "s-subject" we extracted an independent tidy data set, with the information required.
      Exported in the working directory in the text file: data_averages2.txt
