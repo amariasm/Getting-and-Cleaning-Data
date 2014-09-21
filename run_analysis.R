@@ -39,7 +39,7 @@ names(Y) <- "activity"
 
 names(S) <- "subject"
 join <- cbind(S, Y, X)
-write.table(join, "merged_data2.txt")
+write.table(join, "DataJoin.txt")
 
 # 5.From the data set in step 4, creates a second, independent tidy data set
 #   with the average of each variable for each activity and each subject.
@@ -61,5 +61,5 @@ for (s in 1:idSubjects) {
     r = r+1
   }
 }
-write.table(finalresult, "data_averages2.txt")
+write.table(finalresult, "DataResult.txt")
 
