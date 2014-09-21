@@ -30,14 +30,16 @@ The Script (run_analysis.R) performs the following to clean up the data:
     The labels of the attributes and activity are converted to lower case, underscores and brackets "()" are removed.
     Merges the data frame containing features (10299x66) with activity labels (10299x1) and subject.
     The result is saved as Datajoin.txt (10299x68) .The names of the attributes are similar to the following:
-       bodyacc-mean-x 
-       tbodyacc-mean-y 
-       tbodyacc-mean-z 
-       tbodyacc-std-x 
-       tbodyacc-std-y 
-       tbodyacc-std-z 
-       tgravityacc-mean-x 
-       tgravityacc-mean-y
+    
+      bodyacc-mean-x 
+      tbodyacc-mean-y 
+      tbodyacc-mean-z 
+      tbodyacc-std-x 
+      tbodyacc-std-y 
+      tbodyacc-std-z 
+      tgravityacc-mean-x 
+      tgravityacc-mean-y
+
 
 •	The script creates a second independent tidy data set with the average of each measurement for each activity and each subject.
   The result is saved as DataResult.txt ( 180x68 data frame):
