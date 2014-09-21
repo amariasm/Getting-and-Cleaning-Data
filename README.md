@@ -8,9 +8,9 @@ Project processes
 1 Get the data from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 2 The data is decompressed in: 
-F: / Coursera / Getting Data Cleaning / HAR UCI Dataset 
+   F: / Coursera / Getting Data Cleaning / HAR UCI Dataset 
 
-3 run_analisis.R The Script performs the following processes: 
+3 The Script run_analisis.R performs the following processes: 
 
   3.1 Merges the training and the test sets to create one data set 
 
