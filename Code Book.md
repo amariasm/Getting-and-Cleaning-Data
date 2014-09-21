@@ -31,40 +31,24 @@ The Script (run_analysis.R) performs the following to clean up the data:
     Merges the data frame containing features (10299x66) with activity labels (10299x1) and subject.
     The result is saved as Datajoin.txt (10299x68) .The names of the attributes are similar to the following:
     
-      bodyacc-mean-x/y/z 
-      tbodyacc-std-x/y/z
-      tgravityacc-mean-x ç/y/z
-      tgravityacc-std-x/y/z 
-      tbodyaccjerk-mean-x/y/z
-      tbodyaccjerk-std-x/y/z
-      tbodygyro-mean-x/y/z
-      tbodygyro-std-x/y/z
-      tbodygyrojerk-mean-x/y/z
-      tbodygyrojerk-std-x/y/z
-      tbodyaccmag-mean
-      tbodyaccmag-std
-      tgravityaccmag-mean
-      tgravityaccmag-std
-      tbodyaccjerkmag-mean
-      tbodyaccjerkmag-std
-      tbodygyromag-mean
-      tbodygyromag-std
-      tbodygyrojerkmag-mean
-      tbodygyrojerkmag-std
-      fbodyacc-mean-x/y/z
-      fbodyacc-std-x/y/z
-      fbodyaccjerk-mean-x/y/z
-      fbodyaccjerk-std-x/y/z
-      fbodygyro-mean-x/y/z
-      fbodygyro-std-x/y/z
-      fbodyaccmag-mean
-      fbodyaccmag-std
-      fbodybodyaccjerkmag-mean
-      fbodybodyaccjerkmag-std
-      fbodybodygyromag-mean
-      fbodybodygyromag-std
-      fbodybodygyrojerkmag-mean
-      fbodybodygyrojerkmag-std
+      tbodyacc-mean/std     for-x/y/z 
+      tgravityacc-mean/std  for-x/y/z
+      tbodyaccjerk-mean/std for-x/y/z
+      tbodygyro-mean/std    for-x/y/z
+      tbodygyrojerk-mean/std for-x/y/z
+      tbodyaccmag-mean/std
+      tgravityaccmag-mean/std
+      tbodyaccjerkmag-mean/std
+      tbodygyromag-mean/std
+      tbodygyrojerkmag-mean/std
+      fbodyacc-mean/std     for-x/y/z
+      fbodyaccjerk-mean/std for-x/y/z
+      fbodygyro-mean/std    for-x/y/z
+      fbodyaccmag-mean/std
+      fbodybodyaccjerkmag-mean/std
+      fbodybodygyromag-mean/std
+      fbodybodygyrojerkmag-mean/std
+   
 
 
 •	The script creates a second independent tidy data set with the average of each measurement for each activity and each subject.
