@@ -18,12 +18,12 @@ The Script (run_analysis.R) performs the following to clean up the data:
 
 •	Reads activity_labels.txt and assigned descriptive activity names to name the activities in the data set.
 
-   walking
-   walkingupstairs
-   walkingdownstairs
-   sitting
-   standing
-   laying
+      walking
+      walkingupstairs
+      walkingdownstairs
+      sitting
+      standing
+      laying
 
 
 •	The next step in to assign the labels to the data set with descriptive name. The labels of the attributes and activity are converted to lower case, underscores and brackets "()" are removed.
