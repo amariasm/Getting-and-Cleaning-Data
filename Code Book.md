@@ -26,17 +26,18 @@ The Script (run_analysis.R) performs the following to clean up the data:
       laying
 
 
-•	The next step in to assign the labels to the data set with descriptive name. The labels of the attributes and activity are converted to lower case, underscores and brackets "()" are removed.
-Merges the data frame containing features (10299x66) with activity labels (10299x1) and subject.
-The result is saved as Datajoin.txt (10299x68) .The names of the attributes are similar to the following:
-  o	tbodyacc-mean-x 
-  o	tbodyacc-mean-y 
-  o	tbodyacc-mean-z 
-  o	tbodyacc-std-x 
-  o	tbodyacc-std-y 
-  o	tbodyacc-std-z 
-  o	tgravityacc-mean-x 
-  o	tgravityacc-mean-y
+•	The next step in to assign the labels to the data set with descriptive name. 
+    The labels of the attributes and activity are converted to lower case, underscores and brackets "()" are removed.
+    Merges the data frame containing features (10299x66) with activity labels (10299x1) and subject.
+    The result is saved as Datajoin.txt (10299x68) .The names of the attributes are similar to the following:
+        tbodyacc-mean-x 
+        tbodyacc-mean-y 
+        tbodyacc-mean-z 
+        tbodyacc-std-x 
+        tbodyacc-std-y 
+        tbodyacc-std-z 
+        travityacc-mean-x 
+       	tgravityacc-mean-y
 
 •	The script creates a second independent tidy data set with the average of each measurement for each activity and each subject.
   The result is saved as DataResult.txt ( 180x68 data frame):
